@@ -1,0 +1,10 @@
+---
+## Default Kibana configuration from kibana-docker.
+## from https://github.com/elastic/kibana-docker/blob/master/build/kibana/config/kibana.yml
+#
+server.name: kibana
+server.host: "0"
+elasticsearch.hosts: http://192.168.10.112:9200
+xpack.security.enabled: true
+elasticsearch.username: "kibana"
+elasticsearch.password: "123456"
